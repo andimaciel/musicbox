@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="mdb/css/bootstrap.min.css">
+    <!-- Material Design for Bootstrap(MDB) CSS -->
+    <link rel="stylesheet" href="mdb/css/mdb.css">
+    <link rel="stylesheet" href="_css/style.css">
+    <!-- Fonts and Icons -->
+    <!-- Font Open Sans -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Font Awesome 4.7 -->
+    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css ">
+    <!-- Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+       
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-fixed-top navbar-dark black navbar-full">
+        <!--Navbar Brand-->
+        <a href="musicbox.html" class="navbar-brand">MusicBox</a>
+        <!--Search form-->
+        <div class="col-md-3 col-sm-5 col-xs-6">
+            <form class="form-inline float-xs-left">
+                <input class="form-control" type="text" placeholder="Pesquise aqui ">
+            </form>
+        </div>
+        <!-- Collapse button -->
+        <button class="navbar-toggle hidden-sm-up collapsed float-xs-right" type="button" data-toggle="collapse" data-target="#collapseEx"
+            aria-expanded="false">
+               <i class="fa fa-bars"></i>
+           </button>
+        <!-- Collapse content -->
+        <div class="navbar-toggleable-xs collapse" id="collapseEx" aria-expanded="false">
+            <!-- Links -->
+            <!-- Navbar Icons -->
+            <ul class="nav navbar-nav nav-icons float-xs-right">
+                <li class="nav-item">
+                    <a href="" class="nav-link waves-effect waves-light"><i class="fa fa-user"></i> Anderson</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link waves-effect waves-light"><i class="fa fa-shopping-cart"></i><span class="counter">4</span></a>
+                </li>
+            </ul>
+            <!-- Links -->
+            <ul class="nav navbar-nav float-xs-right">
+                <li class="nav-item active">
+                    <a href="#home" class="nav-link waves-effect waves-light">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#lanc" class="nav-link waves-effect waves-light item-color">LANÇAMENTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#dest" class="nav-link waves-effect waves-light item-color">DESTAQUES</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Carousel -->
+    <div id="carousel-example-1" class="carousel slide carousel-fade" data-ride="carousel">
+        <!--Indicadores-->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-1" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-1" data-slide-to="1"></li>
+            <li data-target="#carousel-example-1" data-slide-to="2"></li>
+        </ol>
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+            <!--Primeiro slide-->
+            <div class="carousel-item active">
+                <img src="mdb/img/carousel-img1.jpg" alt="First slide">
+            </div>
+            <!--Segundo slide-->
+            <div class="carousel-item">
+                <img src="mdb/img/car-img2.jpg" alt="Second slide">
+            </div>
+            <!--Terceiro slide-->
+            <div class="carousel-item">
+                <img src="mdb/img/car-img3.jpg" alt="Third slide">
+            </div>
+        </div>
+        <!--Controles-->
+        <a class="left carousel-control" href="#carousel-example-1" role="button" data-slide="prev">
+            <span class="icon-prev" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-1" role="button" data-slide="next">
+            <span class="icon-next" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--Conteúdo-->
+    <div class="container">
+        <!--Etiqueta lançamentos-->
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-6 text-xs-right label-title">
+                <h2 class="h2-responsive">LANÇAMENTOS</h2>
+            </div>
+            <div class="col-md-8 col-sm-6 col-xs-6 label-border"></div>
+        </div>
+        <!--Botão 'ver mais'-->
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <button type="button" class="btn btn-mdb btn-md">Ver Mais</button>
+            </div>
+        </div>
+        <!-- Álbuns lançamentos-->
+        <!-- Card style -->
+        <div class="row">
+            <!--Card-->
+            <div class="card card-content">
+                <!--Card image-->
+                <img class="img-fluid" src="https://goo.gl/tTLSOV" alt="Card image cap">
+                <!--Card body-->
+                <div class="card-body text-xs-center">
+                    <!--Card titulo-->
+                    <div class="card-heading">
+                        <a href="playalbum.html">
+                            <h5 class="h5-responsive">AC/DC</h5>
+                        </a>
+                    </div>
+                    <!--Card detalhes-->
+                    <div class="card-details">
+                        <a href="playalbum.html">
+                            <p>Back in Black</p>
+                        </a>
+                    </div>
+                    <!--Card preço-->
+                    <div class="price">
+                        <p>R$39,90</p>
+                    </div>
+                </div>
+            </div>
+            <!--/.Card content-->
+
+            <!-- Card -->
+            <div class="card card-content">
+                <!--Card image-->
+                <img class="img-fluid" src="https://goo.gl/22GzAW" alt="Card image cap">
+                <!--/.Card image-->
+                <!--Card body-->
+                <div class="card-body text-xs-center">
+                    <div class="card-heading">
+                        <a href="playalbum.html">
+                            <h5 class="h5-responsive">Nirvana</h5>
+                        </a>
+                    </div>
+                    <div class="card-details">
+                        <a href="playalbum.html">
+                            <p>Nevermind</p>
+                        </a>
+                    </div>
+                    <div class="price">
+                        <p>R$39,90</p>
+                    </div>
+                </div>
+            </div>
+            <!--/.Card content-->
+
+            <!--Card-->
+            <div class="card card-content">
+                <!--Card image-->
+                <img class="img-fluid" src="https://goo.gl/p9WTgj" alt="Card image cap">
+                <!--/.Card image-->
+                <!--Card body-->
+                <div class="card-body text-xs-center">
+                    <div class="card-heading">
+                        <a href="playalbum.html">
+                            <h5 class="h5-responsive">Pearl Jam</h5>
+                        </a>
+                    </div>
+                    <div class="card-details">
+                        <a href="playalbum.html">
+                            <p>Ten</p>
+                        </a>
+                    </div>
+                    <div class="price">
+                        <p>R$39,90</p>
+                    </div>
+                </div>
+            </div>
+            <!--/.Card content-->
+
+            <!--Card-->
+            <div class="card card-content">
+                <!--Card image-->
+                <img class="img-fluid" src="https://goo.gl/AY38vO" alt="Card image cap">
+                <!--/.Card image-->
+                <!--Card body-->
+                <div class="card-body text-xs-center">
+                    <div class="card-heading">
+                        <a href="playalbum.html">
+                            <h5 class="h5-responsive">Foo Fighters</h5>
+                        </a>
+                    </div>
+                    <div class="card-details">
+                        <a href="playalbum.html">
+                            <p>Sonic Highways</p>
+                        </a>
+                    </div>
+                    <div class="price">
+                        <p>R$39,90</p>
+                    </div>
+                </div>
+            </div>
+            <!--/.Card content-->
+
+            <!--Card -->
+            <div class="card card-content">
+                <!--Card image-->
+                <img class="img-fluid" src="https://goo.gl/GaNpNn" alt="Card image cap">
+                <!--/.Card image-->
+                <!--Card body-->
+                <div class="card-body text-xs-center">
+                    <div class="card-heading">
+                        <a href="playalbum.html">
+                            <h5 class="h5-responsive">Alice in Chains</h5>
+                        </a>
+                    </div>
+                    <div class="card-details">
+                        <a href="playalbum.html">
+                            <p>Dirt</p>
+                        </a>
+                    </div>
+                    <div class="price">
+                        <p>R$39,90</p>
+                    </div>
+                </div>
+            </div>
+            <!--/.Card content-->
+
+            <!--Card-->
+            <div class="card card-content">
+                <!--Card image-->
+                <img class="img-fluid" src="https://goo.gl/sPBiKn" alt="Card image cap">
+                <!--/.Card image-->
+                <!--Card body-->
+                <div class="card-body text-xs-center">
+                    <div class="card-heading">
+                        <a href="playalbum.html">
+                            <h5 class="h5-responsive">Incubus</h5>
+                        </a>
+                    </div>
+                    <div class="card-details">
+                        <a href="playalbum.html">
+                            <p>If Not Now, When?</p>
+                        </a>
+                    </div>
+                    <div class="price">
+                        <p>R$39,90</p>
+                    </div>
+                </div>
+            </div>
+            <!--/.Card content-->
+
+             <!--Card-->
+            <div class="card card-content">
+                <!--Card image-->
+                <img class="img-fluid" src="https://goo.gl/pxJsok" alt="Card image cap">
+                <!--/.Card image-->
+                <!--Card body-->
+                <div class="card-body text-xs-center">
+                    <div class="card-heading">
+                        <a href="playalbum.html">
+                            <h5 class="h5-responsive">Stone Temple Pilots</h5>
+                        </a>
+                    </div>
+                    <div class="card-details">
+                        <a href="playalbum.html">
+                            <p>Core</p>
+                        </a>
+                    </div>
+                    <div class="price">
+                        <p>R$39,90</p>
+                    </div>
+                </div>
+            </div>
+            <!--/.Card content-->
+        </div>
+        <!--/.Álbuns lançamentos-->
+
+
+        <!--Etiqueta destaques-->
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-6 text-xs-right label-title">
+                <h2 class="h2-responsive">DESTAQUES</h2>
+            </div>
+            <div class="col-md-8 col-sm-6 col-xs-6 label-border"></div>
+        </div>
+        <div class="row">
+            <!--Botão ver mais-->
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <button type="button" class="btn btn-mdb btn-md">Ver Mais</button>
+            </div>
+        </div>
+
+        <!-- Álbuns Destaques-->
+        <!-- Card style -->
+        <div class="row">
+            <!--Card-->
+            <div class="card card-content">
+                <!--Card image-->
+                <img class="img-fluid" src="https://goo.gl/nlUip7" alt="Card image cap">
+                <!--/.Card image-->
+                <!--Card body-->
+                <div class="card-body text-xs-center">
+                    <div class="card-heading">
+                        <a href="playalbum.html">
+                            <h5 class="h5-responsive">Blink 182</h5>
+                        </a>
+                    </div>
+                    <div class="card-details">
+                        <a href="playalbum.html">
+                            <p>Blink 182</p>
+                        </a>
+                    </div>
+                    <div class="price">
+                        <p>R$39,90</p>
+                    </div>
+                </div>
+            </div>
+            <!--/.Card content-->
+
+            <!--Card -->
+            <div class="card card-content">
+                <!--Card image-->
+                <img class="img-fluid" src="https://goo.gl/o5Cori" alt="Card image cap">
+                <!--/.Card image-->
+                <!--Card body-->
+                <div class="card-body text-xs-center">
+                    <div class="card-heading">
+                        <a href="playalbum.html">
+                            <h5 class="h5-responsive">Soundgarden</h5>
+                        </a>
+                    </div>
+                    <div class="card-details">
+                        <a href="playalbum.html">
+                            <p>Badmotorfinger</p>
+                        </a>
+                    </div>
+                    <div class="price">
+                        <p>R$39,90</p>
+                    </div>
+                </div>
+            </div>
+            <!--/.Card content-->
+
+            <!--Card-->
+            <div class="card card-content">
+                <!--Card image-->
+                <img class="img-fluid" src="https://goo.gl/pxJsok" alt="Card image cap">
+                <!--/.Card image-->
+                <!--Card body-->
+                <div class="card-body text-xs-center">
+                    <div class="card-heading">
+                        <a href="playalbum.html">
+                            <h5 class="h5-responsive">Stone Temple Pilots</h5>
+                        </a>
+                    </div>
+                    <div class="card-details">
+                        <a href="playalbum.html">
+                            <p>Core</p>
+                        </a>
+                    </div>
+                    <div class="price">
+                        <p>R$39,90</p>
+                    </div>
+                </div>
+            </div>
+            <!--/.Card content-->
+
+            <!--Card-->
+            <div class="card card-content">
+                <!--Card image-->
+                <img class="img-fluid" src="https://goo.gl/buhGZC" alt="Card image cap">
+                <!--/.Card image-->
+                <!--Card body-->
+                <div class="card-body text-xs-center">
+                    <div class="card-heading">
+                        <a href="playalbum.html">
+                            <h5 class="h5-responsive">Alice in Chains</h5>
+                        </a>
+                    </div>
+                    <div class="card-details">
+                        <a href="playalbum.html">
+                            <p>MTV Unplugged</p>
+                        </a>
+                    </div>
+                    <div class="price">
+                        <p>R$39,90</p>
+                    </div>
+                </div>
+            </div>
+            <!--/.Card content-->
+
+            <!--Card -->
+            <div class="card card-content">
+                <!--Card image-->
+                <img class="img-fluid" src="https://goo.gl/AY38vO" alt="Card image cap">
+                <!--/.Card image-->
+                <!--Card body-->
+                <div class="card-body text-xs-center">
+                    <div class="card-heading">
+                        <a href="playalbum.html">
+                            <h5 class="h5-responsive">Foo Fighters</h5>
+                        </a>
+                    </div>
+                    <div class="card-details">
+                        <a href="playalbum.html">
+                            <p>Sonic Highways</p>
+                        </a>
+                    </div>
+                    <div class="price">
+                        <p>R$39,90</p>
+                    </div>
+                </div>
+            </div>
+            <!--/.Card content-->
+
+            <!--Card-->
+            <div class="card card-content">
+                <!--Card image-->
+                <img class="img-fluid" src="https://goo.gl/2zcNJt" alt="Card image cap">
+                <!--/.Card image-->
+                <!--Card body-->
+                <div class="card-body text-xs-center">
+                    <div class="card-heading">
+                        <a href="playalbum.html">
+                            <h5 class="h5-responsive">Audioslave</h5>
+                        </a>
+                    </div>
+                    <div class="card-details">
+                        <a href="playalbum.html">
+                            <p>Audioslave</p>
+                        </a>
+                    </div>
+                    <div class="price">
+                        <p>R$39,90</p>
+                    </div>
+                </div>
+            </div>
+            <!--/.Card content-->
+
+            <!--Card-->
+            <div class="card card-content">
+                <!--Card image-->
+                <img class="img-fluid" src="https://goo.gl/p9WTgj" alt="Card image cap">
+                <!--/.Card image-->
+                <!--Card body-->
+                <div class="card-body text-xs-center">
+                    <div class="card-heading">
+                        <a href="playalbum.html">
+                            <h5 class="h5-responsive">Pearl Jam</h5>
+                        </a>
+                    </div>
+                    <div class="card-details">
+                        <a href="playalbum.html">
+                            <p>Ten</p>
+                        </a>
+                    </div>
+                    <div class="price">
+                        <p>R$39,90</p>
+                    </div>
+                </div>
+            </div>
+            <!--/.Card content-->
+
+        </div><!-- Álbuns Destaques-->
+    </div><!--/.Container-->
+
+    <!--Footer-->
+    <footer class="page-footer black center-on-small-only">
+        <!--Footer Links-->
+        <div class="container-fluid">
+            <div class="row">
+                <!--Primeira coluna-->
+                <div class="col-md-4">
+                    <h5 class="title">Conteúdo Rodapé</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus sollicitudin erat, placerat finibus
+                        quam venenatis et. Sed sit amet mattis lorem.</p>
+                </div>
+
+                <!--Segunda coluna-->
+                <div class="col-md-8">
+                    <h5 class="title">Links</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--/.Footer Links-->
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2015 Copyright: <a href="#"> MusicBox.com </a>
+            </div>
+        </div>
+        <!--/.Copyright-->
+    </footer>
+    <!--/.Footer-->
+
+
+
+
+
+    <!-- // Scripts // -->
+    <!-- Offline Links -->
+    <!-- Jquery -->
+    <script src="mdb/js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script src="mdb/js/tether.min.js"></script>
+    <!-- Bootstrap core Javascript -->
+    <script src="mdb/js/bootstrap.min.js"></script>
+    <!-- Material design bootstrap -->
+    <script src="mdb/js/mdb.js"></script>
+
+    <!-- CDN Links -->
+    <!-- jQuery JS 3.1.1 -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <!-- CDN Material Design for Bootstrap(MDB) CSS -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.2.0/css/mdb.min.css"></script>
+    <!-- CDN MDB JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.2.0/js/mdb.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="mdb/css/bootstrap.min.css">
+        <!-- Material Design for Bootstrap(MDB) CSS -->
+        <link rel="stylesheet" href="mdb/css/mdb.css">
+        <link rel="stylesheet" href="_css/style.css">
+        <!-- Fonts and Icons -->
+        <!-- Font Open Sans -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <!-- Font Awesome 4.7 -->
+        <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css">
+        <!-- Material Icons -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <style>
+            /*Background img*/
+            body {
+                background-color: #000;
+                background-image: url(mdb/img/bg-img.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: top center;
+            }
+            /* //.Background img*/
+        </style>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-fixed-top navbar-dark black navbar-full">
+            <!--Navbar Brand-->
+            <a href="musicbox.html" class="navbar-brand">MusicBox</a>
+            <!--Search form-->
+            <div class="col-md-3 col-sm-5 col-xs-6">
+                <form class="form-inline float-xs-left">
+                    <input class="form-control" type="text" placeholder="Pesquise aqui ">
+                </form>
+            </div>
+            <!-- Collapse button -->
+            <button class="navbar-toggle hidden-sm-up collapsed float-xs-right" type="button" data-toggle="collapse" data-target="#collapseEx"
+                aria-expanded="false">
+                <i class="fa fa-bars"></i>
+            </button>
+            <!-- Collapse content -->
+            <div class="navbar-toggleable-xs collapse" id="collapseEx" aria-expanded="false">
+                <!-- Links -->
+                <!-- Navbar Icons -->
+                <ul class="nav navbar-nav float-xs-right nav-icons">
+                    <li class="nav-item">
+                        <a href="" class="nav-link waves-effect waves-light"><i class="fa fa-user"></i> Anderson</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link waves-effect waves-light"><i class="fa fa-shopping-cart"></i><span class="counter">4</span></a>
+                    </li>
+                </ul>
+                <!-- Links -->
+                <ul class="nav navbar-nav float-xs-right">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link waves-effect waves-light item-color">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#lanc" class="nav-link waves-effect waves-light item-color">LANÇAMENTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#dest" class="nav-link waves-effect waves-light item-color">DESTAQUES</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Conteúdo da página -->
+        <div class="container">
+            <!--Etiqueta Álbuns-->
+            <div class="row">
+                <div class="col-md-3 col-sm-5 col-xs-5 text-xs-right label-title">
+                    <h2 class="h2-responsive">ÁLBUNS</h2>
+                </div>
+            </div>
+
+            <!--Playlist-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-sm-4">
+                        <table class="table table-inverse black">
+                            <thead>
+                                <tr>
+                                    <th colspan="4"><h3 class="h3-responsive">Sonic Highways</h3></th>
+                                </tr>
+
+                                <tr class="t-border">
+                                    <td colspan="2" class="text-xs-left"><i class="fa fa-heart-o"></i> 285.736</td>
+                                    <td colspan="2" ><i class="fa fa-share-alt"></i> 102.055</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">1</td>
+                                    <td colspan="2" class="t-title">Something from nothing</td>
+                                    <td class="text-xs-right"> <i class="fa fa-play"></i></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">2</td>
+                                    <td colspan="2" class="t-title">Congregation</td>
+                                    <td class="text-xs-right"> <i class="fa fa-play"></i></td>
+                                </tr>
+                                <tr style="color:#ff1744">
+                                    <td scope="row">3</td>
+                                    <td colspan="2">Outside</td>
+                                    <td class="text-xs-right"><i class="material-icons">equalizer</i></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">4</td>
+                                    <td colspan="2" class="t-title">In the clear</td>
+                                    <td class="text-xs-right"> <i class="fa fa-play"></i></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">5</td>
+                                    <td colspan="2" class="t-title">Subterranean</td>
+                                    <td class="text-xs-right"> <i class="fa fa-play"></i></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">6</td>
+                                    <td colspan="2" class="t-title">I am a river</td>
+                                    <td class="text-xs-right"> <i class="fa fa-play"></i></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">7</td>
+                                    <td colspan="2" class="t-title">The feast and the famine</td>
+                                    <td class="text-xs-right"> <i class="fa fa-play"></i></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="col-md-8">
+                        <!--Panel-->
+                        <div class="card card-block card-shop">
+                            <div class="col-md-5">
+                                <img class="img-fluid float-xs-left" src="https://goo.gl/AY38vO" alt="Card image cap">
+                            </div>
+                            <div class="col-md-7">
+                                <h2 class="card-title h2-responsive">Sonic Highways <span class="small-text">- Lançamento 2014.</span></h2>
+                            </div>
+                            
+                            <div class="col-md-7">
+                                <h4 class="card-text h4-responsive">Foo Fighters</h4>
+                            </div>
+
+                             <!--Rating-->
+                             <div class="col-md-7">
+                                 <ul class="rating">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star-half-o"></i></li>
+                                </ul>
+                             </div>
+                            
+                            <div class="col-md-7">
+                                <h1 class="card-text h1-responsive card-price">R$39,90</h1>
+                            </div>
+                            
+                            <!--Adicionar ao carrinho-->
+                            <div class="col-md-6">
+                                <button type="button" class="btn btn-shop float-xs-left" data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp; Adicionar ao carrinho</button>
+                            </div>
+                           
+                        </div>
+                        <!--/.Panel-->
+                    </div>
+
+                     <div class="col-md-8">
+                        <!--Panel-->
+                        <div class="card card-block card-shop2">
+
+                            <!--Botão 'ver mais'-->
+                            <div class="row">
+                                <div class="col-md-8 col-sm-9 col-xs-9">
+                                    <h4 class="h4-responsive">Mais de Foo Fighters</h4>
+                                </div>
+                                <div class="col-md-4 col-sm-3 col-xs-3">
+                                    <button type="button" class="btn btn-mdb2 btn-sm">Ver Mais</button>
+                                </div>
+                            </div>
+
+                            <!--Card-->
+                            <div class="card card-content2">
+                                <!--Card image-->
+                                <img class="img-fluid card-img2" src="https://goo.gl/AY38vO" alt="Card image cap">
+                                <!--/.Card image-->
+                                <!--Card body-->
+                                <div class="card-body text-xs-center">
+                                    <div class="card-heading2">
+                                        <a href="playalbum.html">
+                                            <h5 class="h5-responsive">Foo Fighters</h5>
+                                        </a>
+                                    </div>
+                                    <div class="card-details2">
+                                        <a href="playalbum.html">
+                                            <p>Sonic Highways</p>
+                                        </a>
+                                    </div>
+                                    <div class="price2">
+                                        <p>R$39,90</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.Card content-->
+
+                            <!--Card-->
+                            <div class="card card-content2">
+                                <!--Card image-->
+                                <img class="img-fluid card-img2" src="https://goo.gl/AY38vO" alt="Card image cap">
+                                <!--/.Card image-->
+                                <!--Card body-->
+                                <div class="card-body text-xs-center">
+                                    <div class="card-heading2">
+                                        <a href="playalbum.html">
+                                            <h5 class="h5-responsive">Foo Fighters</h5>
+                                        </a>
+                                    </div>
+                                    <div class="card-details2">
+                                        <a href="playalbum.html">
+                                            <p>Sonic Highways</p>
+                                        </a>
+                                    </div>
+                                    <div class="price2">
+                                        <p>R$39,90</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.Card content-->
+
+                            <!--Card-->
+                            <div class="card card-content2">
+                                <!--Card image-->
+                                <img class="img-fluid card-img2" src="https://goo.gl/AY38vO" alt="Card image cap">
+                                <!--/.Card image-->
+                                <!--Card body-->
+                                <div class="card-body text-xs-center">
+                                    <div class="card-heading2">
+                                        <a href="playalbum.html">
+                                            <h5 class="h5-responsive">Foo Fighters</h5>
+                                        </a>
+                                    </div>
+                                    <div class="card-details2">
+                                        <a href="playalbum.html">
+                                            <p>Sonic Highways</p>
+                                        </a>
+                                    </div>
+                                    <div class="price2">
+                                        <p>R$39,90</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.Card content-->
+
+                            <!--Card-->
+                            <div class="card card-content2">
+                                <!--Card image-->
+                                <img class="img-fluid card-img2" src="https://goo.gl/AY38vO" alt="Card image cap">
+                                <!--/.Card image-->
+                                <!--Card body-->
+                                <div class="card-body text-xs-center">
+                                    <div class="card-heading2">
+                                        <a href="playalbum.html">
+                                            <h5 class="h5-responsive">Foo Fighters</h5>
+                                        </a>
+                                    </div>
+                                    <div class="card-details2">
+                                        <a href="playalbum.html">
+                                            <p>Sonic Highways</p>
+                                        </a>
+                                    </div>
+                                    <div class="price2">
+                                        <p>R$39,90</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.Card content-->
+                        </div>
+                     </div>
+                </div>                
+            </div>
+            <!-- //.Playlist-->
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <!--Content-->
+                    <div class="modal-content">
+                        <!--Header-->
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h4 class="modal-title" id="myModalLabel"><i class="fa fa-check-circle" style="color: #00d255"></i> Produto adicionado ao carrinho</h4>
+                        </div>
+                        <!--Body-->
+                        <div class="modal-body">
+                            <div class="col-md-3">
+                                <img class="img-fluid float-xs-left" src="https://goo.gl/AY38vO" alt="Card image cap">
+                            </div>
+                            <h5 class="h5-responsive text-center">Álbum Sonic Highways - Foo Fighters</h5>
+                        </div>
+                        
+                        <!--Footer-->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-blue-grey" data-dismiss="modal">Continuar comprando</button>
+                            <button type="button" class="btn btn-shop">Fechar compra</button>
+                        </div>
+                    </div>
+                    <!--/.Content-->
+                </div>
+            </div>
+            <!-- /.Live preview-->
+            
+
+
+        </div>
+        <!-- Fim da página -->
+
+
+
+
+        <!-- // Scripts // -->
+        <!-- Offline Links -->
+        <!-- Jquery -->
+        <script src="mdb/js/jquery-3.1.1.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script src="mdb/js/tether.min.js"></script>
+        <!-- Bootstrap core Javascript -->
+        <script src="mdb/js/bootstrap.min.js"></script>
+        <!-- Material design bootstrap -->
+        <script src="mdb/js/mdb.js"></script>
+
+        <!-- CDN Links -->
+        <!-- jQuery JS 3.1.1 -->
+
+    </body>
+</html>
